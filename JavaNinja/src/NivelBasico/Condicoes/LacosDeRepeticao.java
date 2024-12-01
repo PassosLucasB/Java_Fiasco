@@ -1,4 +1,4 @@
-package Condicoes;
+package NivelBasico.Condicoes;
 
 public class LacosDeRepeticao {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class LacosDeRepeticao {
          */
 
         //  While
-        // while (condição) {Tudo aque vai acontecer}
+        // while (condição) {Tudo aqui vai acontecer}
 
         int numeroDeClones = 0;
         int numeroMaximoDeClones = 40;
