@@ -18,7 +18,7 @@ public class IfeElse {
 
         /*
         *   if(condição) {resultado}
-        *   else if (condição {resultado}
+        *   else if (condição) {resultado}
         *   else {resultado caso nada seja verdadeiro}
         *
          */
