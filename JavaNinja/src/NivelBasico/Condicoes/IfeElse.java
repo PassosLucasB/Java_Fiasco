@@ -1,4 +1,4 @@
-package NivelBasico.Condicoes;
+package Condicoes;
 
 public class IfeElse {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class IfeElse {
 
         /*
         *   if(condição) {resultado}
-        *   else if (condição) {resultado}
+        *   else if (condição {resultado}
         *   else {resultado caso nada seja verdadeiro}
         *
          */
