@@ -13,6 +13,12 @@ public class Array {
         ninja[4] = "Kakashi Hatake";
         System.out.println(ninja[5]);
 
+        // Redeclarar
+        String nomeNinja = "Naruto Uzumaki";
+        nomeNinja = "Boruto Uzumaki";
+
+
+
         // Array idade
         // int inicializa com 0
         int [] idade = new int[2];
