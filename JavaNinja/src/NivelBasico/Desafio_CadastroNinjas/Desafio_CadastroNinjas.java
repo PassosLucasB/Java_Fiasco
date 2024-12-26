@@ -1,5 +1,6 @@
 package NivelBasico.Desafio_CadastroNinjas;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
@@ -30,8 +31,14 @@ public class Desafio_CadastroNinjas {
         * String status de conclusão
         * */
 
+        String [] ninja = new String [3];
+        String [] nomeNinja = new String [3];
+
+
         // Abriu Scanner
         Scanner scanner = new Scanner(System.in);
+
+        int opEscolhida = 0;
 
         System.out.println("===== Menu de Ninjas =====");
         System.out.println("1. Cadastrar um Ninja");
@@ -43,7 +50,7 @@ public class Desafio_CadastroNinjas {
 
         switch (opUsuario) {
             case 1:
-                System.out.println("Digite o nome do Ninja a ser cadastrado: ");
+                System.out.println("Você escolheu adicionar um novo Ninja!");
                 break;
             case 2:
                 System.out.println("LISTAR NINJAS - ADICIONAR LISTA AQUI");
@@ -55,8 +62,12 @@ public class Desafio_CadastroNinjas {
                 System.out.println("Você não escolheu uma alternativa válida! Tente novamente.");
         }
 
+        String novoNome = scanner.nextLine(System.in);
 
-
+        if (opEscolhida == 1){
+            System.out.println("Digite o nome do Ninja a ser adicionado: ");
+            String nomeNinja = novoNome.nextLine();
+        }
 
 
 
