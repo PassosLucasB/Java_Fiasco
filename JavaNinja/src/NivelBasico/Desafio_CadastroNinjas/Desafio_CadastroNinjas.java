@@ -1,6 +1,5 @@
 package NivelBasico.Desafio_CadastroNinjas;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
