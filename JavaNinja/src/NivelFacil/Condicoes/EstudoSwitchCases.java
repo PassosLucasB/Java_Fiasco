@@ -1,4 +1,4 @@
-package NivelBasico.Condicoes;
+package NivelFacil.Condicoes;
 
 import java.util.Scanner;
 

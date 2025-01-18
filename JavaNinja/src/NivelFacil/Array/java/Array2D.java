@@ -1,4 +1,4 @@
-package NivelBasico.Array2D.java;
+package NivelFacil.Array2D.java;
 
 public class Array2D {
     public static void main(String[] args) {
