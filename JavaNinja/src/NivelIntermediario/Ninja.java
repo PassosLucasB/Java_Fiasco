@@ -6,4 +6,12 @@ public class Ninja {
     String aldeia;
     int idade;
 
+
+    // Criar um método público personalizado
+    // void = sem retorno
+
+    public void SharinganAtivado(){
+        System.out.println("O sharingan Ativou!");
+    }
+
 }
