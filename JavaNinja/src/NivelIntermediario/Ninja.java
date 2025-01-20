@@ -23,5 +23,13 @@ public class Ninja {
         return "Oi, Eu sou um ninja!";
     }
 
+    /*
+    *   Método Int vai ter que retornar um int
+    *
+     */
+
+    public int anosParaSeTornarHokage(int idadeMinimaParaSerHokages){
+        return idadeMinimaParaSerHokages - idade;
+    }
 
 }

@@ -18,7 +18,12 @@ public class Main {
 
         // Aplicando métodos no meu OBJETO
         Sasuke.SharinganAtivado();
-        Sasuke.EuSouUmNinja();
+        String chamandoMetodo = Sasuke.EuSouUmNinja();
+        System.out.println(chamandoMetodo);
+
+        int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
+        System.out.println("Você tem: " + Sasuke.idade + " anos então falta no mínimo: " + quantoTempoFalta + " anos.");
+
 
 
         // Criar Sakura Haruno
