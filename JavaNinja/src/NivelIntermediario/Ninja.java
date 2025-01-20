@@ -8,10 +8,20 @@ public class Ninja {
 
 
     // Criar um método público personalizado
-    // void = sem retorno
+    // O método void = não retorna valor nenhum
 
     public void SharinganAtivado(){
         System.out.println("O sharingan Ativou!");
     }
+
+    /*
+    *   Método String vai ter que retornar uma String
+    *
+     */
+
+    public String EuSouUmNinja(){
+        return "Oi, Eu sou um ninja!";
+    }
+
 
 }

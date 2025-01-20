@@ -18,6 +18,7 @@ public class Main {
 
         // Aplicando métodos no meu OBJETO
         Sasuke.SharinganAtivado();
+        Sasuke.EuSouUmNinja();
 
 
         // Criar Sakura Haruno
