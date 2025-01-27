@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.Metodos;
 
 public class Ninja {
 
