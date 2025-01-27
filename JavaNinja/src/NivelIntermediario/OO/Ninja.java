@@ -7,29 +7,8 @@ public class Ninja {
     int idade;
 
 
-    // Criar um método público personalizado
-    // O método void = não retorna valor nenhum
-
-    public void SharinganAtivado(){
-        System.out.println("O sharingan Ativou!");
+    // Sharingan ativado, método público
+    public void SharinganAtivado() {
+        System.out.println("Meu nome é " + nome + ". O Sharingan Ativou, eu sou um Uchiha!");
     }
-
-    /*
-    *   Método String vai ter que retornar uma String
-    *
-     */
-
-    public String EuSouUmNinja(){
-        return "Oi, Eu sou um ninja!";
-    }
-
-    /*
-    *   Método Int vai ter que retornar um int
-    *
-     */
-
-    public int anosParaSeTornarHokage(int idadeMinimaParaSerHokages){
-        return idadeMinimaParaSerHokages - idade;
-    }
-
 }
