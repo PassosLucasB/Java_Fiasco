@@ -8,10 +8,10 @@ public class Main {
        Naruto.nome = "Naruto Uzumaki";
        Naruto.aldeia = "Aldeia da Folha";
        Naruto.idade = 17;
-       Naruto.SharinganAtivado();
+
 
         // Objeto 2
-        Ninja Sasuke = new Ninja();
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 18;
