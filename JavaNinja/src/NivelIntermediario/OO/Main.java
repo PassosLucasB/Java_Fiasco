@@ -19,16 +19,18 @@ public class Main {
         Sasuke.SharinganAtivado();
 
         // Objeto 3
-        Ninja Sakura = new Ninja();
+        Haruno Sakura = new Haruno();
         Sakura.nome = "Sakura Haruno";
         Sakura.aldeia = "Aldeia da Folha";
         Sakura.idade = 18;
+        Sakura.AtivaCura();
 
         // Objeto 4
-        Ninja Hinata = new Ninja();
+        Hyuga Hinata = new Hyuga();
         Hinata.nome = "Hinata Hyuga";
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.idade = 16;
+        Hinata.AtivarOlhoBranco();
 
     }
 }
