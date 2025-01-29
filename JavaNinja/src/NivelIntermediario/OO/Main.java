@@ -4,10 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
         // Objeto 1
-       Ninja Naruto = new Ninja();
-       Naruto.nome = "Naruto Uzumaki";
-       Naruto.aldeia = "Aldeia da Folha";
-       Naruto.idade = 17;
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.nome = "Naruto Uzumaki";
+        Naruto.aldeia = "Aldeia da Folha";
+        Naruto.idade = 17;
+        Naruto.ModoSabioAtivado();
 
 
         // Objeto 2
