@@ -8,4 +8,8 @@ public class Ninja {
     String nivelDificuldade;
     String statusMissao;
 
+    public void mostrarInformacores() {
+        System.out.println("O nome do Ninja é " + nome + " idade: "+ idade + " com a missão de " + missao +
+                " com a dificuldade " + nivelDificuldade + " no momento está " + statusMissao + "!");
+    }
 }
