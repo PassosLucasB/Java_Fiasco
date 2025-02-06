@@ -2,8 +2,8 @@ package NivelIntermediario.OO;
 
 public class Hyuga extends Ninja{
 
-    public void AtivarOlhoBranco(){
+    public void ByakuganAtivado(){
 
-        System.out.println("Eu sou " + nome + ". Ativei meu Olho Branco!");
+        System.out.println("Eu sou " + nome + ". Ativei meu Byakugan!");
     }
 }

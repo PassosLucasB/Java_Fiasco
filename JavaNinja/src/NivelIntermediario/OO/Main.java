@@ -30,7 +30,7 @@ public class Main {
         Hinata.nome = "Hinata Hyuga";
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.idade = 16;
-        Hinata.AtivarOlhoBranco();
+        Hinata.ByakuganAtivado();
 
     }
 }
