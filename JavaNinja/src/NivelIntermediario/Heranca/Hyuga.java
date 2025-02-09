@@ -1,4 +1,4 @@
-package NivelIntermediario.OO;
+package NivelIntermediario.Heranca;
 
 public class Hyuga extends Ninja{
 
