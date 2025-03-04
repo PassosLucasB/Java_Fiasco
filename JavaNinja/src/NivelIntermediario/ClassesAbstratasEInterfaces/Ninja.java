@@ -8,7 +8,10 @@ public abstract class Ninja {
 
     // Metodos abstratos
 
-    public void nomeDoNinja(){
-        System.out.println("Meu nome é: "+ nome);
+    public abstract void nomeDoNinja();
+
+    public void tacarKunai(){
+        System.out.println("Eu taquei uma Kunai");
     }
+
 }
