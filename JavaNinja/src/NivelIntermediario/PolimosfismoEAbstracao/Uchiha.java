@@ -1,6 +1,7 @@
 package NivelIntermediario.PolimosfismoEAbstracao;
 
-public class Uchiha extends Ninja{
+public class Uchiha extends Ninja {
+
 
     //Sobreescrever o método da classe Ninja
     @Override
