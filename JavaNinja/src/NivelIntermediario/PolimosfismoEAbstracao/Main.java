@@ -18,6 +18,16 @@ public class Main {
         // Obj uchiha
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
+        sasuke.aldeia = "Aldeia da Folha";
+        sasuke.idade = 17;
+
         sasuke.habilidadeEspecial();
+
+        // Obj Uchiha2
+        Uchiha itachi = new Uchiha("Itachi Uchira", "Aldeia da Folha", 27 );
+        itachi.habilidadeEspecial();
+
+
+
     }
 }
