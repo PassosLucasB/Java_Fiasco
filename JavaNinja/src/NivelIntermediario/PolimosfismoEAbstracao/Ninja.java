@@ -3,7 +3,7 @@ package NivelIntermediario.PolimosfismoEAbstracao;
 public abstract class Ninja implements EstrategiaDeBatalha{
 
     String nome;
-    int aldeia;
+    String aldeia;
     int idade;
 
     //Metodo geral! Todos os ninjas vao ter
@@ -13,6 +13,6 @@ public abstract class Ninja implements EstrategiaDeBatalha{
     //Sobreescrevendo o método da interface
     @Override
     public void estrategiaDeBatalhaNinja(){
-        System.out.println("Essa é minha estratégia de combate");
+        System.out.println("Meu nome é: " + nome + " Essa é minha estratégia de combate");
     }
 }
