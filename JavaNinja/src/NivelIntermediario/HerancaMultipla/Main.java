@@ -16,6 +16,11 @@ public class Main {
         kakashi.aldeia = "Aldeia da Folha";
         kakashi.idade = 48;
         kakashi.boasVindas();
+        kakashi.sharinganAtivado();
+        kakashi.ninjaDeElite();
+        kakashi.hokageAtivo();
+
+        Uzumaki naruto = new Uzumaki();
 
     }
 }
