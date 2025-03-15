@@ -2,9 +2,17 @@ package NivelIntermediario.OverloadConstrutores;
 
     public abstract class Ninja implements EstrategiaDeBatalha {
 
+        //TODO: Incluir 2 novos atributos: numeroDeMissoesConcluidas, Rank
+        //TODO: Rank: Gennin, Chunnin, Jounnin, Hokage
+
+
         String nome;
         String aldeia;
         int idade;
+        int numeroDeMissoesConcluidas;
+
+
+
 
         public Ninja() {
         }
@@ -26,4 +34,4 @@ package NivelIntermediario.OverloadConstrutores;
             System.out.println("Meu nome é: " + nome + " Essa é minha estratégia de combate");
         }
     }
-}
+
