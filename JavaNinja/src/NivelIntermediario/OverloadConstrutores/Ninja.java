@@ -10,6 +10,7 @@ package NivelIntermediario.OverloadConstrutores;
         String aldeia;
         int idade;
         int numeroDeMissoesConcluidas;
+        NivelNinja rank;
 
 
 
@@ -22,6 +23,15 @@ package NivelIntermediario.OverloadConstrutores;
             this.aldeia = aldeia;
             this.idade = idade;
 
+        }
+
+        // TODO: Sobrecarga do construtor chamando os novos atributos
+        // Sobrecarga de metodos você não precisa redeclarar o construtor, só os novos atributos
+
+        public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+            this(nome, aldeia, idade);
+            this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+            this.rank = rank;
         }
 
         //Metodo geral! Todos os ninjas vao ter

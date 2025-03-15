@@ -10,6 +10,10 @@ package NivelIntermediario.OverloadConstrutores;
             super(nome, aldeia, idade);
         }
 
+        public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+            super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+        }
+
         //Sobreescrever o método da classe Ninja
         @Override
         public void habilidadeEspecial(){
