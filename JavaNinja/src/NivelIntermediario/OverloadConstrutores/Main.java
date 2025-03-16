@@ -16,10 +16,7 @@ public class Main {
         naruto.estrategiaDeBatalhaNinja();
 
         // Obj uchiha
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.aldeia = "Aldeia da Folha";
-        sasuke.idade = 17;
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 18, 12, NivelNinja.GENIN);
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalhaNinja();
 

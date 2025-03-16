@@ -18,6 +18,8 @@ package NivelIntermediario.OverloadConstrutores;
         public Ninja() {
         }
 
+
+        // Método existente: Primeiro método
         public Ninja(String nome, String aldeia, int idade) {
             this.nome = nome;
             this.aldeia = aldeia;
