@@ -40,4 +40,11 @@ public class Uchiha extends Ninja {
                System.out.println("Seu QI é: " + qi + " e você precisa treinar mais suas estratégias");
             }
        }
+
+       @Override // É uma padronização do Java - BOAS PRÁTICAS
+       public void metodoProvisorio(){
+        System.out.println("teste, na classe Uchiha");
+        }
+
+
 }
