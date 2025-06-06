@@ -2,7 +2,8 @@ package NivelIntermediario.Desafio4;
 
 public interface Ninja {
 
-    void mostrarInformacoes();
 
-    void executarHabilidade();
+    public void mostrarInformacoes();
+
+    public void executarHabilidade();
 }
