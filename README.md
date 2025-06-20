@@ -15,7 +15,7 @@ Nesse nível aprendi os seguintes itens:
 - Dados Primitivos e Dados não primitivos
 - Métodos, Condicionais e Lógica
 - Escanners e Validação de dados
-- Swich cases e Tratamento de dasos
+- Swich cases e Tratamento de dados
 - Ternários
 - Laços de Repetição
 - Arrays, Estrutura de dados e Referência de Memória
