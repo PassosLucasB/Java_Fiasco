@@ -1,6 +1,6 @@
 package NivelFacil.Array2D.java;
 
-public class Array2D {
+public class DoisD {
     public static void main(String[] args) {
 
         //String simples
