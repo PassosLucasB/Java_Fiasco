@@ -1,4 +1,4 @@
-package NivelFacil;
+package NivelFacil.Array.java;
 
 public class Array {
     public static void main(String[] args) {
