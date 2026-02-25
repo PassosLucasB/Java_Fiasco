@@ -26,10 +26,14 @@ public class Array {
         ninja[6] = "Naruto Uzumaki";
         System.out.println(ninja[2]);
 
-        // For paa fazer um LOOP no Array
+        // For para fazer um LOOP no Array
 
-      for (int i = 0; i < 7; i++) {
+      /*for (int i = 0; i < 7; i++) {
         System.out.println(ninja[i]);
+      }
+      */
+      for (int i = 0; i < ninja.length; i++) {
+        System.out.println("Hokage: " + ninja[i]);
       }
 
 
